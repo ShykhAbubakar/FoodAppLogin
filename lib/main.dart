@@ -30,6 +30,9 @@ class MyApp extends StatelessWidget {
                     prefixIcon: Icon(Icons.email),
                     focusedBorder: OutlineInputBorder(
                       borderSide: BorderSide(color: Colors.white10),
+                      borderRadius: BorderRadius.circular(15),
+                    ),
+                    enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(12),
                     ),
                   ),
@@ -47,6 +50,9 @@ class MyApp extends StatelessWidget {
                       borderSide: BorderSide(color: Colors.white10),
                       borderRadius: BorderRadius.circular(12),
                     ),
+                    enabledBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(15),
+                    )
                   ),
                 ),
               ),
